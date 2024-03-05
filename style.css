@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: beige;
+    padding: 7% 5%;
+    font-family: inter, sans-serif;
+}
+.container {
+    background-color:  hsl(0, 0%, 12%);
+    padding:0 2% 2%;
+    width: 33.3%;
+    margin: 0 auto 7%;
+    border-radius: 3%;
+    
+}
+
+.title-image {
+    border-radius: 50%;
+    padding: 2% 0;
+}
+.username {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 20px;
+    padding-bottom: 1%;
+    margin: 0;
+}
+.job-title {
+    font-size: 1rem;
+    padding: 1% 0;
+}
+.btn {
+    display: block;
+    text-decoration: none;
+    color: beige;
+    background-color: hsl(0, 0%, 20%);
+    margin: 5% auto;
+    padding: 2% 0;
+    border-radius: 10px;
+    width: 90%;
+}
+.btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    font-weight: bold;
+}
+
+@media  (max-width: 420px) and (min-width: 200px){
+    .container {
+        width: 80% !important;
+        /* margin: 0 auto; */
+    }
+    .title-image{
+        width:30% ;
+    }
+    .username {
+        font-size: 20px;
+    }
+    .location{
+        font-size: 16px;
+        /* width: 80%; */
+    }
+    .job-title{
+        font-size: 14px;
+        width: 100%;
+    }
+    .btn{
+        font-size: 12px;
+    }
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 16%, 69%); 
+}
