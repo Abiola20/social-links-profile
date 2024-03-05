@@ -20,7 +20,7 @@ body {
 }
 .username {
     font-size: 2rem;
-    margin: 0 0 10px;
+    margin-bottom: 7px;
 }
 .location {
     color: hsl(75, 94%, 57%);
