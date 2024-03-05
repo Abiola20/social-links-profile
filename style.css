@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background-color: black;
-    color: beige;
+    color: white;
     padding: 7% 5%;
     font-family: inter, sans-serif;
 }
@@ -9,7 +9,7 @@ body {
     background-color:  hsl(0, 0%, 12%);
     padding:0 2% 2%;
     width: 33.3%;
-    margin: 0 auto 7%;
+    margin: 3% auto 7%;
     border-radius: 3%;
     
 }
@@ -19,7 +19,7 @@ body {
     padding: 2% 0;
 }
 .username {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0;
 }
 .location {
@@ -35,7 +35,7 @@ body {
 .btn {
     display: block;
     text-decoration: none;
-    color: beige;
+    color: white;
     background-color: hsl(0, 0%, 20%);
     margin: 5% auto;
     padding: 2% 0;
@@ -48,10 +48,11 @@ body {
     font-weight: bold;
 }
 
-@media  (max-width: 420px) and (min-width: 200px){
+@media  (max-width: 450px) and (min-width: 200px){
     .container {
         width: 80% !important;
-        /* margin: 0 auto; */
+
+        margin: 10% auto 7% !important;
     }
     .title-image{
         width:30% ;
